@@ -1,0 +1,49 @@
+#nav-bar {
+  width: 90%;
+  height: 50px;
+  background-color: rgba(38, 0, 255, 0.4);
+  z-index: 100000000000;
+  display: inline-flex;
+  justify-content: space-around;
+  border: 10px;
+  border-radius: 10px;
+  position: fixed;
+}
+.button {
+  border-radius: 10px;
+  box-sizing: border-box;
+  height: 70%;
+  width: 70px;
+  margin-top: 7px;
+  background-color: white;
+}
+#searchbox {
+  border-radius: 10px;
+  margin: 7px;
+}
+#bodys {
+  background-color: antiquewhite;
+  min-height: 100%;
+  min-width: 100%;
+  position: absolute;
+}
+#header {
+  display: flex;
+  justify-content: center;
+}
+#content {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(rgba(153, 7, 182, 0.37), green, rgb(0, 0, 255), alpha);
+}
+.content-box {
+  max-height: 200px;
+  max-width: 200px;
+  min-width: 200px;
+  min-height: 200px;
+  border-radius: 10px;
+  background-image: url("https://th.bing.com/th/id/R.b4d94c8f09fa94aadfb0719d5dde7d96?rik=SlQr7LCyEj1tQw&riu=http%3a%2f%2f2.bp.blogspot.com%2f-gh2KFqAKWm0%2fTmeGZzp-gBI%2fAAAAAAAAAnU%2fHOTVPaQYF3U%2fs1600%2fChristmas-Wallpapers.jpg&ehk=rz1gMvl4U53aXmPxTKMH4fzc6PEw6VMx%2bT4QYHTIjYU%3d&risl=&pid=ImgRaw&r=0");
+  display: flex;
+  justify-content: center;
+}
